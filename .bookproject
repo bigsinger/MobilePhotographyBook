@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name": "手机摄影实战指南",
+    "language": "zh-CN",
+    "description": "大师级手机摄影全书——从计算摄影原理到创意视觉表达，涵盖光影、静物、建筑、风光、微距及人像七大篇章",
+    "current_version": "1.2.0",
+    "published_versions": [
+      "1.0.0",
+      "1.1.0",
+      "1.2.0"
+    ]
+  },
+  "publishing": {
+    "target_platform": "gitbook",
+    "publish_dir": "docs",
+    "auto_preview": false,
+    "preview_port": 4000
+  },
+  "preferences": {
+    "chapter_min_words": 1500,
+    "chapter_max_words": 5000,
+    "tone": "master",
+    "include_exercises": true,
+    "include_summary": true,
+    "include_further_reading": true
+  },
+  "iron_rules": [
+    "全书以手机摄影为核心，不涉及任何专业相机（单反/微单）内容",
+    "人物篇为重点篇章，篇幅应为其他篇章2-3倍",
+    "每节至少包含一个大师级技巧或独特视角",
+    "强调计算摄影的创造性运用，而非仅依赖硬件",
+    "每节末尾附'大师心法'一句话总结"
+  ],
+  "quality_checks": {
+    "min_words": 800,
+    "check_heading_hierarchy": true,
+    "require_master_tip": true
+  },
+  "git": {
+    "auto_commit": false,
+    "branch": "main"
+  }
+}
